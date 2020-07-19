@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    p {
+      color: red;
+      padding: 3px;
+    }
+
+    p:first-child {
+      color: blueviolet;
+    }
+    p:last-child {
+      color: #fff;
+    }
+    p:nth-child(2n) {
+      font-size: 50px;
+    }
+
+    p:nth-child(2n + 1) {
+      font-size: large;
+    }
+
+    p:first-letter {
+      color: chartreuse;
+      font-size: 50px;
+    }
+  </style>
+  <body>
+    <p>parrafo 1</p>
+    <p>parrafo 2</p>
+    <p>parrafo 3</p>
+    <p>parrafo 4</p>
+    <div>
+      <p>
+        pseudo ele,mentos ::before ::after
+      </p>
+    </div>
+  </body>
+</html>
